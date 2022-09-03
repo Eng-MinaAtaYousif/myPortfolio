@@ -1,0 +1,77 @@
+.back-to-top {
+    position: fixed;
+    top: 600px;
+    right: 20px;
+    border-radius:50%;
+}
+.hrs {
+    height: 20px;
+    background-color: #fff;
+    width: 100%;
+}
+.pro_skills {
+    background-color: rgba(0, 0, 0, 0.123);
+    color: white;
+    
+}
+.pro_skills div div h1 {
+    color: orange;
+}
+.pro_skills .myprogress {
+    width: 100%;
+    height: auto;
+    color:rgb(255, 252, 252) ;
+    font-size: 30px;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgba(0, 0, 0, 0.304); */
+}
+.pro_skills .myprogress progress {
+    width: 80%;
+    height: 30px;
+    font-size: none;
+    color: rgb(220, 23, 23);
+    border: 1px solid #000;
+    border-radius: 20%;
+}
+/* .hide {
+    display: none;
+} */
+.mywork-list {
+    list-style: none;
+}
+.mywork-list > li .go a {
+  
+    margin: 20px;
+    background-color: green;
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+    font-size: large;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    border-radius: 20%;
+    
+}
+
+.mywork-list li div > h1 {
+  font-size: 30px;
+  margin-left: 20px;
+
+}
+.mywork-list li div {
+    border-bottom: 3px solid orange;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    /* width: 80%; */
+
+}
+
+.mywork-list li ul {
+    font-size: 20px;
+}
+.workplace {
+    /* margin-left: 0px; */
+}
